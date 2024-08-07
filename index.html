@@ -26,15 +26,24 @@ p{
   z-index:2;
 }
 </style>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
   </head>
   <body>
     <main>
       <h1> Hola Mundo!</h1>
-      <p>Tome este ramo, porque 
+      <p>Tomé este ramo por que durante la carrera siempre fue algo que me llamaba la atención, pero me daba miedo el tema de la codificación, hasta que empecé a buscar práctica y en la mayoría me preguntaban si tenía conocimiento de HTML o JavaScript, lo que me dejaba fuera de mcuhas oportunidades de práctica que llamaban mi atención. Me di cuenta de que era algo esencial en mi formación como diseñadora.
+
     </main>
-    
+    <script> 
+      function setup () {
+        createCanvas(windowWidth,windowHeight);
+        background (220,210.100);
+        stroke (1);
+      }
+      function draw() {
+        line(pmouseX,pmouseY,mouseX,mouseY);
+      }
+    </script>
   </body>
 </html>
